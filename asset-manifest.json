@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sapir0507/React-Eeveelution/static/css/main.588415e0.css",
+    "main.js": "/sapir0507/React-Eeveelution/static/js/main.98490843.js",
+    "index.html": "/sapir0507/React-Eeveelution/index.html",
+    "main.588415e0.css.map": "/sapir0507/React-Eeveelution/static/css/main.588415e0.css.map",
+    "main.98490843.js.map": "/sapir0507/React-Eeveelution/static/js/main.98490843.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.588415e0.css",
+    "static/js/main.98490843.js"
+  ]
+}
