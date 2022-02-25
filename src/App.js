@@ -18,19 +18,19 @@ function App() {
           <Navbar/>
           <div className="content">
             <Switch>
-              <Route exact path="/">
+              <Route exact path="react-card-game/">
                   <Home/>
               </Route>  
-              <Route exact path="/homepage">
+              <Route exact path="react-card-game/homepage">
                   <Home/>
               </Route>  
-              <Route exact path="/MemoryGame">
+              <Route exact path="react-card-game/MemoryGame">
                   <PopupWindow/>
               </Route>    
-              <Route exact path="/Eeveelution">
+              <Route exact path="react-card-game/Eeveelution">
                 <Eeveelution/>  
               </Route>   
-              <Route exact path="/Login">
+              <Route exact path="react-card-game/Login">
                 <Login/>  
               </Route>   
               <Route path="*">
