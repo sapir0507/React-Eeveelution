@@ -1,0 +1,60 @@
+/* Colors pallet
+_____________________________*/
+
+/* Backgrounds*/
+$Primary-background: #0f0e22; 
+$Secondery-background: #fff;
+
+/*colors*/
+$Primary-color: black;
+$Secondary-color: red;
+
+/*fonts*/
+$Font-family:  Georgia, 'Times New Roman', Times, serif;
+$Font-size: 24px;
+$Font-shadow: 1px 1px 1px black;
+
+/*width*/
+$Full-Width: 100%;
+$Page-Width: 95%;
+$Container-Width: 90%;
+
+
+.Eeveelution{
+    box-sizing: border-box;
+    background-color: $Primary-background;
+    width: $Page-Width;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.Eveelution__main{
+    width: $Full-Width;
+    margin: 0 auto;
+}
+
+.Title{
+    text-shadow: $Font-shadow;
+    color: red;
+    margin: 0 auto;
+}
+.Title h1{
+    margin: 0 50%;
+}
+
+.sources{
+
+}
+.container{
+    width: $Container-Width;
+    margin: 0 auto;
+}
+.general_information{
+    width: $Full-Width;
+    color: white;
+    font-size: $Font-size;
+}
+.evelutions{
+
+}

@@ -1,0 +1,49 @@
+ .memory-game{
+   margin: 0 auto;
+   background-color: #0e0b36;
+   width: 95%;
+   height: 840px;
+ }
+  .game-cards{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 100%;
+    grid-template-columns: repeat(5, calc((100% / 5)));
+  }
+
+  .memory-game h2{
+   text-align: center;
+   color: red;
+   font-size: 40px;
+   text-shadow: 1px 2px 1px black;
+   padding: 10px;
+   margin-bottom: 20px;
+  }
+
+  .score{
+      display: flex;
+      color: white;
+      justify-content: space-evenly;
+      font-size: 22px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-shadow: 1px 2px 1px black;
+  }
+
+  .memory-game button{
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: transparent;
+      border-style: outset;
+      border-color: white;
+      color: white;
+
+  }
+
+  .memory-game button:hover{
+     background-image: linear-gradient(red,white);
+     text-shadow: 2px 2px 1px black;
+  }

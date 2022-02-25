@@ -1,0 +1,15 @@
+{
+    "Login": [{
+        "id": 1,
+        "username": "livetotell",
+        "password": "1234",
+        "pokemon": {
+            "Pokemon_name": "eevee",
+            "Level": 1,
+            "Exp": 0,
+            "Current_HP": 100,
+            "Moves": [],
+            "Move_Points": 0
+        }
+    }]
+}

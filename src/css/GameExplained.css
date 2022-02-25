@@ -1,0 +1,179 @@
+.GameExplained{
+    display: flex;
+    flex-wrap: wrap; /*new line for the rest of the games*/
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.GameExplained__flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: stretch;
+    justify-content: space-evenly;
+
+    color: #fff;
+    max-width: 1300px;
+    width: 310px;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-style: outset;
+    border-color: snow;
+    border-radius: 10px;
+    transition: all 1s;
+} 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: stretch;
+    justify-content: space-evenly;
+
+    color: inherit;
+    list-style-type: none;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-style: outset;
+    border-color: snow;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.GameExplained__center-icons{
+    display: flex;
+    align-items: center;
+}
+.white{
+    color: white;
+}
+.GameExplained__game-image{
+    display: block;
+    width: 310px;
+    height: 300px;
+    border-radius: 10px;
+}
+.GameExplained__flex-container p, .GameExplained__flex-container h1{
+    padding: 10px;
+    margin: 10px;
+}
+.GameExplained__flex-container h1{
+    font-size: 30px;
+    text-align: center;
+}
+.game-info__hidden-text p{
+    padding: 10px;
+}
+.game-info__hidden-text a{
+    display: inline;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 110%;
+}
+.game-info__hidden-text a:hover{
+    color: red;
+    cursor: pointer;
+}
+.GameExplained__enlarge{
+    width: 98%;
+    max-width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 1s;
+    background-color: #fff;
+    color: #000;
+}
+.close-panle{
+    box-sizing: border-box;
+    margin: 1em;
+    padding-right: 10px;
+}
+.flex-container li{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    border: 2px outset #333;
+    border-radius: 10px;
+}
+.GameExplained__remove{
+    display: none;
+}
+ .GameExplained__enlarge .game-image{
+    display: flex;
+    width: 98%;
+    max-width: 98%;
+}
+.game-image__game-cover{
+    background-color: white;
+}
+ .GameExplained__enlarge .game-image img{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    max-width: 98%;
+}
+ .GameExplained__enlarge p{
+    font-size: 110%;
+    max-width: 98%;
+}
+ .GameExplained__enlarge h1{
+    font-size: 210%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 98%;
+}
+.GameExplained__flex-container-slide-right{
+    transform: translateX(151%);
+    transition: all 1.5s;
+}
+.GameExplained__flex-container-slide-left{
+    transform: translateX(-151%);
+    transition: all 1.5s;
+}
+.GameExplained__order1{
+    order: 1;
+}
+.GameExplained__order2{
+    order: 2;
+}
+.GameExplained__order3{
+    order: 3;
+}
+.GameExplained__order4{
+    order: 4;
+}
+.GameExplained__order5{
+    order: 5;
+}
+.bg_clr_red{
+    background-color: red;
+}
+.bg_clr_green{
+    background-color: green;
+}
+.bg_clr_black{
+    background-color: black;
+}
+.bg_clr_dark{
+    background-color: #445;
+}
+.bg_clr_white{
+    background-color: white;
+}
+.bg_clr_blue{
+    background-color: blue;
+}
+.bg_clr_pink{
+    background-color: rgb(255, 117, 140);
+}
+.bg_clr_l-pink{
+    background-color: pink;
+}
+.bg_clr_ice_blue{
+    background-color: rgba(173, 216, 230, 0.658);
+}
+.bg_clr_yellow{
+    background-color: rgba(255, 255, 0, 0.623);
+}
+

@@ -1,0 +1,111 @@
+/* Colors pallet
+_____________________________*/
+
+/* Backgrounds*/
+$Primary-background: #0f0e22; 
+$Secondery-background: #fff;
+/*colors*/
+$Primary-color: black;
+$Secondary-color: red;
+/*fonts*/
+$Font-family:  Georgia, 'Times New Roman', Times, serif;
+$Font-size: 24px;
+$Font-shadow: 1px 2px 1px black;
+
+/*width*/
+$Full-Width: 100%;
+$Page-Width: 95%;
+$Container-Width: 90%;
+
+/* Login Page
+_____________________________*/
+.login_page{
+    font-size: $Font-size;
+    font-family: $Font-family;
+    background-color: $Primary-background;
+    color: $Primary-color;
+    width: $Page-Width;
+    height: 800px;
+    margin: 0 auto;
+}
+
+/* Containers
+_____________________________*/
+.login_page__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: $Page-Width;
+    color: $Secondary-color;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.login_page__container > h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    color: rgba(255,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(255,0,0,0.23), 0px -5px 35px rgba(255,255,255,0.15);
+}
+/* Login Form
+_____________________________*/
+
+.login_form{
+    margin: 0 auto;
+    padding: 10px;
+    width: 40%;
+}
+.username, .password{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Labels 
+_____________________________*/
+.username label, .password label{
+    font-family: $Font-family;
+}
+
+/* Inputs 
+_____________________________*/
+.username input, .password input{
+    font-family: $Font-family;
+    font-size: 18px;
+}
+
+/* Buttons
+_____________________________*/
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn > button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.btn > button:hover{
+  color: $Secondary-color;
+  background-color: $Primary-color;
+  border-color: black;
+  border-style: outset;
+}
+
+.login_status{
+    margin-left: 265px;
+    margin-top: 65px;
+    
+}

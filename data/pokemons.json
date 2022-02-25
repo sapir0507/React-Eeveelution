@@ -1,0 +1,25 @@
+{
+    "Pokemons": 
+    [
+        {
+            "eevee": {
+                "Pokemon_name": "eevee",
+                "type": "normal",
+                "Possible_evolutions": ["espeon", "flareon", "glaceon", "jolteon", "leafeon", "sylveon", "umbreon", "vaporeon"],
+                "HP": 100,
+                "MP": 10,
+                "ALL_Moves": ["", "", "", "", "", "", "", ""]
+            }
+        },
+        {
+            "espeon": {
+                "Pokemon_name": "espeon",
+                "type": "light",
+                "Possible_evolutions": [],
+                "HP": 500,
+                "MP": 100,
+                "ALL_Moves": ["", "", "", "", "", "", "", ""]
+            }
+        }
+    ]
+}

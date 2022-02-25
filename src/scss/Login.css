@@ -1,0 +1,131 @@
+/* Colors pallet
+_____________________________*/
+/* Backgrounds*/
+/*colors*/
+/*fonts*/
+/*width*/
+/* Login Page
+_____________________________*/
+.login_page {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #0f0e22;
+  color: black;
+  width: 95%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+/* Containers
+_____________________________*/
+.login_page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 95%;
+  color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.login_page__container > h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 200px;
+  color: rgba(255, 0, 0, 0.6);
+  text-shadow: 2px 8px 6px rgba(255, 0, 0, 0.23), 0px -5px 35px rgba(255, 255, 255, 0.15);
+}
+
+/* Login Form
+_____________________________*/
+.login_form {
+  margin: 0 auto;
+  padding: 10px;
+  width: 40%;
+}
+
+.username, .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Labels 
+_____________________________*/
+.username label, .password label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Inputs 
+_____________________________*/
+.username input, .password input {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+/* Buttons
+_____________________________*/
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn > button {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.btn > button:hover {
+  color: red;
+  background-color: black;
+  border-color: black;
+  border-style: outset;
+}
+
+.login_status {
+  margin-left: 265px;
+  margin-top: 65px;
+}
+/*# sourceMappingURL=Login.css.map */

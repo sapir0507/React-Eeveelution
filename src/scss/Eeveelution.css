@@ -1,0 +1,41 @@
+/* Colors pallet
+_____________________________*/
+/* Backgrounds*/
+/*colors*/
+/*fonts*/
+/*width*/
+.Eeveelution {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #0f0e22;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.Eveelution__main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Title {
+  text-shadow: 1px 1px 1px black;
+  color: red;
+  margin: 0 auto;
+}
+
+.Title h1 {
+  margin: 0 50%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.general_information {
+  width: 100%;
+  color: white;
+  font-size: 24px;
+}
+/*# sourceMappingURL=Eeveelution.css.map */

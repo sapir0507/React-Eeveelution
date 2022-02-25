@@ -1,0 +1,107 @@
+.homepage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #0f0e22;
+    box-shadow: 2px black;
+    padding: 15px;
+    width: 95%;
+    padding: 3px 10px 10px 10px;
+    margin: 0 auto;
+}
+ .homepage__greeting{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .homepage__greeting > h1{
+    font-family: 'Arial Narrow Bold', 'Trebuchet MS', Verdana, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    padding: 10px;
+}
+ .homepage__cover{
+    height: 300px;
+    width: 100%;
+    background-image: url('https://static.zerochan.net/Eeveelution.full.1985063.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+ .disclaimer > *{
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.disclaimer > p{
+    color: rgb(226, 198, 43);
+}
+.disclaimer i{
+    color: rgb(202, 178, 39);
+    text-decoration: underline rgb(148, 130, 29);
+    text-shadow: 1px 1px 1px rgb(255, 224, 50);
+}
+.homepage__flex-container{
+   display: flex;
+    /* 
+   flex-wrap: wrap; // new line
+   flex-direction: row; // which direction are the flex items: -> <- up down
+  */
+   flex-flow: row wrap; /*equals to the two above*/
+   justify-content: center; /*align the items inside the flexbox in the center*/
+   align-items: center; /*in case of a bigger height container -> places the items in the middle*/
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 24px;
+   max-width: 96%;
+   width: 96%;
+
+   background-color: seashell;
+   box-shadow: 2px 2px 2px 2px black;
+   border-style: outset;
+   border-color: snow;
+   border-radius: 10px;
+}
+.homepage__flex-container > .side-pic{
+    align-self: center;
+    height: 200px;
+    width: 400px;
+    background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2021/12/Eevee-Pokemon-Cover.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+ .homepage__flex-container .words{
+    max-width: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 19px;
+}
+ .homepage__flex-container .words > p{
+   color:black;
+}
+ .homepage__flex-container .words > ol{
+    margin: 10px;
+    padding: 10px;
+}
+ .homepage__flex-container .words ol li{
+    margin-left: 30px;
+    color: black;
+}
+ .homepage__flex-container .words ol li a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+ .homepage__flex-container .words a:hover{
+    color: burlywood;
+}

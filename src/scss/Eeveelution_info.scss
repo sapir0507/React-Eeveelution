@@ -1,0 +1,39 @@
+
+.PokemonList__item{
+    
+    list-style-type: none;
+    margin: 20px auto;
+
+}
+.PokemonList__item > h3{
+    text-align: center;
+}
+.PokemonList__item > h3::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 250px;
+  background-color: red;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.PokemonList__item > h3::before{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 250px;
+    background-color: red;
+    margin: 0 auto;
+  }
+.Pokemon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph{
+    margin: 15px;
+    width: 800px;
+}
+.pokemon-pic{
+    height: min-content;
+}

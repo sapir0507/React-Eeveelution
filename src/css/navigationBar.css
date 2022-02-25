@@ -1,0 +1,82 @@
+
+.navigation-bar{
+    display: flex; /*makes the items of the navigation bar flex items*/
+    align-self: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #0f0e22;
+    border-bottom: groove rgb(197, 186, 186);
+    
+    height: 70px;
+    width: 95%;
+  }
+  .navigation-bar__buttons {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 25px;
+    flex-grow: 2;
+    align-content: center;
+    justify-content: flex-start;
+  }
+  .navigation-bar__buttons a{
+    padding: 10px;
+    margin: 5px;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .navigation-bar > h2{
+    font-family:  Times, serif;
+    color: rgb(221, 6, 6);
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .navigation-bar__buttons a:hover{
+     color:rgb(231, 200, 160);
+     text-shadow: 1px 2px 2px rgb(221, 164, 88);
+   }
+  .dropdown{
+    position: relative;
+    margin: 5px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color:white;
+  }
+  .dropdown > div{
+    padding: 10px;
+    font-size: 1em;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .navigation-barr__all_games{
+    position: relative;
+    
+  }
+  .dropdown__games{
+    display: block;
+    position: absolute;
+    top: 1em;
+    left:0;
+    right:0;
+    transform: scale(0);
+    transition: all 1s;
+  }
+  .dropdown__games.active{
+    display: block;
+    position: absolute;
+    background-color: #333;
+    transform: scale(100%);
+    transition: all 1s;
+    top: 3em;
+    right: -2em;
+    left: -2em;
+    width: 135%;
+  }

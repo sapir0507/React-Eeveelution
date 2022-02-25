@@ -1,0 +1,15 @@
+
+*,
+*::before, /*all elements before and after gets margin, and padding get 0*/
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+body {
+  box-sizing: border-box;
+  padding: 3px 10px 10px 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
