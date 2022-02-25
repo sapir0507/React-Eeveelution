@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sapir0507/react-card-game/static/css/main.588415e0.css",
-    "main.js": "/sapir0507/react-card-game/static/js/main.98490843.js",
+    "main.js": "/sapir0507/react-card-game/static/js/main.91732e4f.js",
     "index.html": "/sapir0507/react-card-game/index.html",
     "main.588415e0.css.map": "/sapir0507/react-card-game/static/css/main.588415e0.css.map",
-    "main.98490843.js.map": "/sapir0507/react-card-game/static/js/main.98490843.js.map"
+    "main.91732e4f.js.map": "/sapir0507/react-card-game/static/js/main.91732e4f.js.map"
   },
   "entrypoints": [
     "static/css/main.588415e0.css",
-    "static/js/main.98490843.js"
+    "static/js/main.91732e4f.js"
   ]
 }
