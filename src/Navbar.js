@@ -23,7 +23,7 @@ const Navbar = () => {
                         <div className="dropdown__btn" onClick={dropdownNow}>
                         <FontAwesomeIcon icon={faArrowDown}/> <span> {' All Games'}</span>
                         </div>
-                        <div id="dropdown__btn__all-games" className="dropdown__games">
+                        <div id="dropdown__btn__all-games" className="dropdown__games" onClick={dropdownNow}>
                             <Link to="/MemoryGame">Memory Game</Link>
                         </div>
                     </div>

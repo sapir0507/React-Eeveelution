@@ -4,15 +4,15 @@ import Card from "./Card";
 import {useMediaQuery} from "./utils/MediaQueryHook";
 
 const PokemonArray = [
-    {src: "/images/espeon.jpg", matched: false},
-    {src: "/images/eevee.jpg", matched: false},
-    {src: "/images/flareon.jpg", matched: false},
-    {src: "/images/glaceon.jpg",matched: false},
-    {src: "/images/umbreon.jpg",matched: false},
-    {src: "/images/jolteon.png", matched: false},
-    {src: "/images/sylveon.png", matched: false},
-    {src: "/images/leafeon.png", matched: false},
-    {src: "/images/vaporeon.png", matched: false}
+    {src: "./images/espeon.jpg", matched: false},
+    {src: "./images/eevee.jpg", matched: false},
+    {src: "./images/flareon.jpg", matched: false},
+    {src: "./images/glaceon.jpg",matched: false},
+    {src: "./images/umbreon.jpg",matched: false},
+    {src: "./images/jolteon.png", matched: false},
+    {src: "./images/sylveon.png", matched: false},
+    {src: "./images/leafeon.png", matched: false},
+    {src: "./images/vaporeon.png", matched: false}
 ]
 
 const MemoryGame = ({togglePopup}) => {
