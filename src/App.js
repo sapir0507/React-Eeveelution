@@ -13,24 +13,21 @@ import Eeveelution from "./Eeveelution";
 function App() {
  
   return (
-    <Router>
+    // <Router>
       <div className="App">
           <Navbar/>
           <div className="content">
             <Switch>
-              <Route exact path="react-card-game/">
+              <Route exact path="/">
                   <Home/>
               </Route>  
-              <Route exact path="react-card-game/homepage">
-                  <Home/>
-              </Route>  
-              <Route exact path="react-card-game/MemoryGame">
+              <Route exact path="/MemoryGame">
                   <PopupWindow/>
               </Route>    
-              <Route exact path="react-card-game/Eeveelution">
+              <Route exact path="/Eeveelution">
                 <Eeveelution/>  
               </Route>   
-              <Route exact path="react-card-game/Login">
+              <Route exact path="/Login">
                 <Login/>  
               </Route>   
               <Route path="*">
@@ -39,7 +36,7 @@ function App() {
             </Switch>
           </div>
       </div>
-    </Router>
+    // </Router>
   );
 }
 
